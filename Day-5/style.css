@@ -1,0 +1,63 @@
+/* .container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid ;
+    position: relative;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+.item1{
+    background-color: lightblue;
+    position: absolute  ;
+    z-index: -999;
+}
+.item2{
+    background-color: lightcoral;
+} */
+ /* .container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid ;
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: none;
+} */
+ /* .container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid ;
+
+ } */
+
+
+
+
+ /* .container p{
+    background-color: yellowgreen;
+ } */
+
+ /* .item1 p{
+    background-color: lightgreen;
+ } */
+
+
+
+ 
+  *{
+   box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+ .container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid ;
+   
+ p{
+    padding: 10px;
+    
+ }
