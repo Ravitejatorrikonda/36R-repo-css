@@ -1,0 +1,16 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    /* margin: 40%; */
+    /* transition-property: background-color; */
+    /* transition-duration: 5s;
+    transition-delay: 5s; */
+    /* transition-timing-function:ease; */
+    transition: all 0.4s ease;
+}
+
+.container:hover{
+    background-color: lightblue;
+    padding: 5px;
+}
