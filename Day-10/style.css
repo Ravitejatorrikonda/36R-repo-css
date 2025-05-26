@@ -1,0 +1,61 @@
+/* a:link{
+    color: yellow;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: aqua;
+} */
+ /* .container{
+ 
+display: none;
+ }
+.item{
+    background-color: deeppink;
+   width: fit-content;
+   padding: 5px;
+   text-decoration: underline;
+}
+#menu:checked + .container{
+    display: block;
+}
+#menu{
+    display: none;
+}
+label{
+    font-size: 40px;
+    color: brown;
+} */
+
+/* .container{
+    display: flex;
+    border: 2px solid;
+    gap: 10px;
+}
+.item{
+    padding: 10px;
+}
+
+.item-2{
+    order: 2;
+    background-color: lightcoral;
+}
+.item-1{
+    order: 2;
+    background-color: lightblue;
+}
+.item-3{
+    order: 1;
+
+    background-color: lightgreen;
+}
+.item-4{
+    background-color: lightsalmon;
+} */
+ p:nth-last-child(odd){
+    background-color: red;
+ }
