@@ -1,0 +1,35 @@
+:root{
+    --primary-color:#AE7E6F; 
+    --secondary-color:#FFFFFE;
+    --Accent-color:#3A13EB;
+}
+
+
+.letter::first-letter {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.line::first-line {
+    color: var(--Accent-color);
+}
+
+.line::selection {
+    background-color: brown;
+}
+li::marker{
+    content: '→ ';
+}
+input::placeholder{
+    text-align: center;
+    
+}
+input{
+    font-size: 2rem;
+}
+.after::after{
+    content: '♥';
+}
+.before::before{
+    content: '♦';
+}
