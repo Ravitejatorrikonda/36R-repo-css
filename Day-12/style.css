@@ -1,0 +1,49 @@
+/* body{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+} */
+
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: lightcoral;
+transition: all 0.4s ease;
+animation-name: x;
+animation-duration: 3s ;
+/* animation-delay: 4s; */
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+/* animation-direction:alternate; */
+animation-fill-mode:both;
+
+}
+/* div:hover{
+   transform: translate(-300px, -300px);
+} */
+ @keyframes x {
+   0%{
+     transform: translate(0px, 0px);
+   }
+   25%{
+       transform: translate(500px) rotate(360deg) scale(1.4);
+       background-color: lightgreen;
+   }
+   50%{
+transform: translate(500px, 500px);
+background-color: brown;
+   }
+75%{
+  transform: translate(0px, 500px);
+  background-color: blue;
+   }
+   100%{
+       transform: translate(0px, 0px);
+   }
+    
+ }
+
+
